@@ -1,0 +1,40 @@
+vc ==> version control
+
+centralized vc : 
+info 
+allow commit messages 
+upload 3 files ==> perform login functionality
+DRSWBACKS : 
+under the same LAN 
+single point of failure
+
+Distributed VC :
+bitkeeper 
+git  ==>vc 
+
+
+to configure git user : 
+
+git config --global user.name "gehadkassap" 
+
+git cconfig --global user.email "gehadkassap"
+
+
+/// starting new project :: 
+
+initialize git in our project 
+command :: git init 
+
+local (pc) ::
+1- working tree 
+2- staging area 
+3- local repo
+
+working tree to staging area 
+git add file_name 
+
+staging area to local :
+git commit -m "add profile pages styling and functionality"
+
+to check in which stage we are : 
+git status
